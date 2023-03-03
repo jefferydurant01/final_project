@@ -1,78 +1,58 @@
-<!--
-For my final project, I am creating an online portfolio with a minimalistic/futuristic design. The site will have 5 pages: Home Page, About Page, Projects Page, Contact Page, Skills Page. The website will have the following color scheme: #000F08, #1C3738, #4D4847, #F4FFF8,  and #8BAAAD. For the Home Page, I will have the heading “Online Portfolio” followed by a smaller heading saying “Jeffery Durant” The headings will be animated with a CS design using @keyframes. The letters will be hollowed out with liquid flowing through giving the appearance of water flowing through the letters. For the About Page, I will have an animated page with transitional animations in CS. For the Projects Page, I will have a slideshow animation that allows the user to scroll through my projects, similar to selecting shows on Netflix. For the Contact Page, I will have logos representing my contact information. For JavaScript, I will be utilizing JavaScript animations throughout the webpages to give the illusion that the page is active. The Home Page will have a button that when clicked will transition over to the next page, the About Page. From there, every page will be able to transition to different sections of the site through the buttons. Additionally, I want certain pages to have unique JavaScript events play and I plan to have my About Page be animated with JavaScript. I’m deciding whether to have my image transition into the page when the user clicks or have the user try and match words to my About page. 
-
-The organization of the repository will be spread out into different folders for the different elements. I will have all the HTML/CSS/JavaScript code stored into separate folders for the different pages which would all be contained under the src folder. From there, I will have a font folder, images and audio folder. For inspiration, I will be following my personal online portfolio that I created with my fellow developer friend, Robert Kelly. We had the idea of creating a blog/portfolio site called “Totally Normal Blog” which would document our experiences as developers and allow me to practice front end development outside of class. 
-
-
-Title Page CSS: 
-* {
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
- }
-
-body{
-    background-color: black; 
-}
-
-@font-face {
-    font-family: ArchivoBlack;
-    src: url("../font/ArchivoBlack-Regular.ttf");
-}
-
-.main_header, .sub_header {
-    display: flex; 
-    width: 100%; 
-    height: 100vh; 
-    align-items: center; 
-    justify-content: center;
-    font-family: ArchivoBlack;
-    font-size: 68px;
-}
-
-h1 {
-    text-transform: uppercase;
-    letter-spacing: -5px; 
-    transition: 700ms ease;
-    font-variation-settings: "wght" 75; 
-
-    color:  whitesmoke; 
-    outline: none; 
-    text-align: center; 
-    text-shadow:0 0 0.05em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff; 
-}
-
-h1:hover {
-    font-variation-settings: "wght" 124; 
-    letter-spacing: 1px; 
-}
-
-Title Page HTML: 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Welcome Page</title>
-        <meta charset="utf-8"> 
-        <meta name="author" content="Jeffery Durant">
-        <meta name="keywords" content="Title Page"> 
-        <meta name="description" content="Main title page for online portfolio"> 
-        <link rel="stylesheet" type="text/css" href="../title-page/title_page.css"> 
+        <title>Proposal</title>
     </head>
+
     <body>
-        <table>
-            <tr>
-            <td>
-        <div class="main_header">
-            <h1>Online Portfolio</h1>
-        </div>
-            </td>
-        </tr>
-        <tr>
-            <td class ="sub_header">
-                <h1>Jeffery Durant</h1>
-            </td>
-        </tr>
-        </table>
+        <p>
+            For my final project, I am creating an online portfolio with a minimalistic/futuristic design. The site will have 5 pages: Home Page, About Page, Projects Page, Contact Page, Skills Page. The website will have the following color scheme: #000F08, #1C3738, #4D4847, #F4FFF8,  and #8BAAAD. For the Home Page, I will have the heading “Online Portfolio” followed by a smaller heading saying “Jeffery Durant” The headings will be animated with a CS design using @keyframes. The letters will be hollowed out with liquid flowing through giving the appearance of water flowing through the letters. For the About Page, I will have an animated page with transitional animations in CS. For the Projects Page, I will have a slideshow animation that allows the user to scroll through my projects, similar to selecting shows on Netflix. For the Contact Page, I will have logos representing my contact information. For JavaScript, I will be utilizing JavaScript animations throughout the webpages to give the illusion that the page is active. The Home Page will have a button that when clicked will transition over to the next page, the About Page. From there, every page will be able to transition to different sections of the site through the buttons. Additionally, I want certain pages to have unique JavaScript events play and I plan to have my About Page be animated with JavaScript. I’m deciding whether to have my image transition into the page when the user clicks or have the user try and match words to my About page. 
+
+            The organization of the repository will be spread out into different folders for the different elements. I will have all the HTML/CSS/JavaScript code stored into separate folders for the different pages which would all be contained under the src folder. From there, I will have a font folder, images and audio folder. For inspiration, I will be following my personal online portfolio that I created with my fellow developer friend, Robert Kelly. We had the idea of creating a blog/portfolio site called “Totally Normal Blog” which would document our experiences as developers and allow me to practice front end development outside of class. 
+            
+            
+            Title Page CSS: 
+            * {
+                margin: 0; 
+                padding: 0; 
+                box-sizing: border-box; 
+             }
+            
+            body{
+                background-color: black; 
+            }
+            
+            @font-face {
+                font-family: ArchivoBlack;
+                src: url("../font/ArchivoBlack-Regular.ttf");
+            }
+            
+            .main_header, .sub_header {
+                display: flex; 
+                width: 100%; 
+                height: 100vh; 
+                align-items: center; 
+                justify-content: center;
+                font-family: ArchivoBlack;
+                font-size: 68px;
+            }
+            
+            h1 {
+                text-transform: uppercase;
+                letter-spacing: -5px; 
+                transition: 700ms ease;
+                font-variation-settings: "wght" 75; 
+            
+                color:  whitesmoke; 
+                outline: none; 
+                text-align: center; 
+                text-shadow:0 0 0.05em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff; 
+            }
+            
+            h1:hover {
+                font-variation-settings: "wght" 124; 
+                letter-spacing: 1px; 
+            }
     </body>
 </html>
--->
+
